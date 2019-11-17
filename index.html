@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payload</title>
+    <link href="https://fonts.googleapis.com/css?family=Public+Sans&display=swap" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+    <link href="/static/favicon.png" rel="icon" type="image/png">
+    <script src="https://kit.fontawesome.com/464686b8bf.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="logo-bar">
+      <div class="logo-bar__rather-large-banner">
+        <div class="logo-bar__logo">
+          <h1 class="logo-bar__rather-large-text">Payload</h1>
+          <p>Is an application which transfers files (again). So, here they are:</p>
+        </div>
+      </div>
+    </div>
+    <div id="payload" class="payload">
+      <div class="payload-grid">
+        <div class="payload-title">
+          Loading all sorts of stuffs...
+        </div>
+        <div class="payload-content">
+          <div><i class="fas fa-clock"></i> You gotta hold on for a moment</div>
+        </div>
+      </div>
+    </div>
+    <div class="separator"></div>
+    <div class="footnote">
+      <small>Made by <a href="https://www.42yeah.casa">42yeah</a>. With love, of course!</small>
+    </div>
+    <form id="upload-form" type="POST" enctype="multipart/form-data" style="display: none">
+      <input id="upload-form-file" type="file" name="file">
+    </form>
+  </body>
+  <script src="js/fetchPayload.js" type="module"></script>
+</html>

@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-family: 'Public Sans', cursive;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px #445ddd solid;
+  color: #556eee;
+}
+
+a:visited {
+  color: #556eee;
+}
+
+a:hover {
+  color: #335bbb;
+}
+
+a:active {
+  color: #224aaa;
+}
+
+.logo-bar {
+  font-family: 'Public Sans', cursive;
+  padding-top: 0.5em;
+  margin: 2% 10%;
+  color: #777777;
+}
+
+.logo-bar__logo {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 0.99em;
+  max-width: 25em;
+}
+
+@media screen and (max-width: 486px) {
+  .logo-bar__logo {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
+
+.logo-bar__rather-large-text {
+  font-size: 70px;
+  font-weight: 1000;
+  margin-bottom: 0.1em;
+  margin-right: 0.15em;
+  color: #335ccc;
+}
+
+.payload {
+  padding: 0 10%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3em;
+}
+
+.payload-grid {
+  border: 1px #cccccc solid;
+  width: 25%;
+  margin-left: -1px;
+  margin-bottom: -1px;
+  padding: 1rem;
+  transition: 0.2s all;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 832px) {
+  .payload-grid {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 692px) {
+  .payload-grid {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 628px) {
+  .payload-grid {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .payload-grid {
+    width: 80%;
+  }
+}
+
+.payload-grid:hover {
+  border-color: #67abff;
+  background-color: #67abff;
+  box-shadow: 0 6px 6px rgba(128, 128, 128, 0.5);
+  color: white;
+}
+
+.payload-grid:active {
+  border-color: #1a81ff;
+  background-color: #1a81ff;
+  box-shadow: 0 0 0 0 transparent;
+}
+
+.payload-grid:hover * {
+  color: white;
+}
+
+.payload-title {
+  font-size: 0.95em;
+  color: #1a81ff;
+  overflow-wrap: break-word;
+  font-weight: 1000;
+  margin-bottom: 0.5rem;
+}
+
+.payload-content {
+  font-size: 0.75em;
+  line-height: 1.6em;
+  color: #676767;
+}
+
+.separator {
+  margin-left: 10%;
+  width: 70%;
+  height: 1px;
+  border-top: 1px #eeeeee solid;
+}
+
+.footnote {
+  margin-left: 10%;
+  color: #ababab;
+  margin-bottom: 3em;
+}
