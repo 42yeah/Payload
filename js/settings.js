@@ -1,4 +1,4 @@
-const host = "http://10.61.144.243";
+const host = "http://127.0.0.1";
 const port = "23123";
 
 const exp = {

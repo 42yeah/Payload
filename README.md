@@ -21,6 +21,8 @@ npm init
 node server.js
 ```
 
+Remember to change your host in js/settings.js.
+
 The default port is 23123, If you want to change the port, change it in server.js **and** js/settings.js. Isn't that cool? One config in two files! So there you go!
 
 ## License
